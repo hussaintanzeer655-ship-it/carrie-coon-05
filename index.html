@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang='en'>
+<head>
+  <meta charset='UTF-8'>
+  <meta name='viewport' content='width=device-width, initial-scale=1'>
+  <title>Micro Interactions</title>
+  <link rel='stylesheet' href='styles.css'>
+</head>
+<body>
+  <header class='site-header'>
+    <div class='brand'>Carrie Coon</div>
+    <button aria-label='Toggle' onclick='toggleTip()' style='background:transparent;border:0;color:#fff'>?</button>
+  </header>
+  <section class='panel' id='intro'>
+    <h2>Micro Interactions</h2>
+    <p>Play with hover and click animations.</p>
+    <div id='orb' aria-label='orb' style='width:60px;height:60px;border-radius:50%;background:#2b6cb0;transition:transform .3s ease'></div>
+  </section>
+  <section class='panel' id='tips'>
+    <div class='tip' style='opacity:.8'>Hover the orb to grow.</div>
+  </section>
+  <script src='script.js'></script>
+</body>
+</html>
