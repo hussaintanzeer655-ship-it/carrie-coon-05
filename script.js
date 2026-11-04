@@ -1,0 +1,1 @@
+function toggleTip(){const o=document.getElementById('orb'); const t=document.getElementById('tips'); o.style.animation='pulse 0.6s ease'; o.style.transform='scale(1.15)'; setTimeout(()=>{o.style.transform='scale(1)';},600); if(t){t.style.opacity=(t.style.opacity||'0.8');} }
